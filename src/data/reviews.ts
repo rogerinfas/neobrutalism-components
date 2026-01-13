@@ -1,56 +1,48 @@
-import lillie from "../../public/pfps/17.jpg"
-import ignacio from "../../public/pfps/20.jpg"
-import megan from "../../public/pfps/26.jpg"
-import caleb from "../../public/pfps/35.jpg"
-import john from "../../public/pfps/76.jpg"
-import pedro from "../../public/pfps/80.jpg"
-import willis from "../../public/pfps/90.jpg"
+import thumbnail from "../../public/pfps/17.jpg" // Placeholder for now
 
-const reviewers = [
+const projects = [
   {
-    fullName: "Willis Cummings",
-    jobTitle: "Forward Accountability Liaison",
-    pfp: willis,
-    review: "This library is complete garbage.",
+    fullName: "ERP Personal",
+    jobTitle: "NestJS, DDD, Clean Architecture",
+    pfp: thumbnail,
+    review: "Sistema ERP escalable con módulos financieros, control de caja y conciliaciones. Implementación de CQRS y Unit of Work.",
   },
   {
-    fullName: "Lillie Green",
-    jobTitle: "Global Factors Producer",
-    pfp: lillie,
-    review: "I don't believe there are people who will actually use this lmao.",
+    fullName: "Football Hours SaaS",
+    jobTitle: "React, NestJS, PostgreSQL",
+    pfp: thumbnail,
+    review: "Plataforma de alquiler de campos deportivos con gestión de roles, reservas, pagos y autenticación.",
   },
   {
-    fullName: "Mr. Ignacio Beier",
-    jobTitle: "International Quality Executive",
-    pfp: ignacio,
-    review:
-      "This “theme” frankly sucks. Unbelievable somebody actually spent time on this.",
+    fullName: "NestJS Auth Template",
+    jobTitle: "NestJS, Google OAuth, JWT",
+    pfp: thumbnail,
+    review: "Plantilla robusta de autenticación con estrategias locales y OAuth2 (Google), gestión de sesiones y seguridad.",
   },
   {
-    fullName: "Megan Franey",
-    jobTitle: "Customer Web Analyst",
-    pfp: megan,
-    review:
-      "If you want to reduce your conversion rate to 0, then this ui library is perfect for you.",
+    fullName: "OdontoWeb",
+    jobTitle: "NestJS, MySQL, WhatsApp API",
+    pfp: thumbnail,
+    review: "Sistema de gestión de citas dentales con notificaciones automáticas por WhatsApp y correo electrónico.",
   },
   {
-    fullName: "Caleb Jaskolski V",
-    jobTitle: "Global Research Planner",
-    pfp: caleb,
-    review: "I thought Material UI was worst looking ui library.",
+    fullName: "DreamSocial",
+    jobTitle: "NestJS, PostgreSQL, AWS",
+    pfp: thumbnail,
+    review: "Red social universitaria para compartir contenido académico, con autenticación y sistema de comentarios.",
   },
   {
-    fullName: "John Doe",
-    jobTitle: "National Brand Facilitator",
-    pfp: john,
-    review: "I want to vomit.",
+    fullName: "SyncOrder App",
+    jobTitle: "Flask, TailwindCSS",
+    pfp: thumbnail,
+    review: "Gestor de pedidos con panel de control y transiciones de estado en tiempo real.",
   },
   {
-    fullName: "Mr. Pedro Carroll",
-    jobTitle: "Legacy Optimization Supervisor",
-    pfp: pedro,
-    review: "HAHAHAHAHAHAHAHAHAHAHAHAHAHAH IMAGINE USING THIS.",
+    fullName: "AutoMsgTG",
+    jobTitle: "Flask, Telethon, Python",
+    pfp: thumbnail,
+    review: "Bot de automatización para Telegram con soporte para múltiples sesiones y envío masivo de mensajes.",
   },
 ]
 
-export default reviewers
+export default projects

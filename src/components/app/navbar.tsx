@@ -1,32 +1,9 @@
 import Link from "next/link"
-
-import Search from "@/components/app/search"
 import { ThemeSwitcher } from "@/components/app/theme-switcher"
 
-async function getRepoData() {
-  const res = await fetch(
-    "https://api.github.com/repos/ekmas/neobrutalism-components",
-    {
-      cache: "force-cache",
-      headers: {
-        "X-GitHub-Api-Version": "2022-11-28",
-        Authorization: `Bearer ${process.env.GH_API_KEY}`,
-      },
-    },
-  )
+// async function getRepoData() { ... } // Removed dynamic fetch
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data")
-  }
-
-  return res.json()
-}
-
-async function Navbar() {
-  const repo = await getRepoData()
-
-  const starsCount = (repo.stargazers_count / 1000).toFixed(1) + "k"
-
+function Navbar() {
   return (
     <nav className="fixed left-0 top-0 z-20 mx-auto flex h-[70px] w-full items-center border-b-4 border-border bg-secondary-background px-5">
       <div className="mx-auto flex w-[1300px] text-foreground max-w-full items-center justify-between">
@@ -35,39 +12,24 @@ async function Navbar() {
             className="text-[22px] size-8 rounded-base flex bg-main text-main-foreground border-2 border-black items-center justify-center font-heading"
             href={"/"}
           >
-            N
+            R
           </Link>
 
           <div className="items-center text-base font-base xl:gap-10 lg:flex gap-10 hidden">
-            <Link href="/docs">Docs</Link>
-
-            <Link href="/docs/accordion">Components</Link>
-
-            <Link href="/styling">Styling</Link>
-
-            {/* <Link href="/blocks">Blocks</Link> */}
-
-            <Link href="/charts">Charts</Link>
-
-            <Link href="/stars">Stars</Link>
-
-            <Link href="/templates">Templates</Link>
-
-            <Link href="/showcase">Showcase</Link>
+            <Link href="#about">Sobre mí</Link>
+            <Link href="#projects">Proyectos</Link>
+            <Link href="#experience">Experiencia</Link>
+            <Link href="#skills">Habilidades</Link>
           </div>
         </div>
 
         <div className="flex items-center gap-4">
-          <Search />
-
           <div className="flex items-center justify-end gap-4">
             <a
               target="_blank"
-              href="https://github.com/ekmas/neobrutalism-components"
-              className="flex gap-2 items-center justify-center rounded-base border-2 border-border shadow-nav dark:shadow-navDark dark:border-darkBorder px-1.5 h-9 transition-all hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none dark:hover:shadow-none"
+              href="https://github.com/rogerinfas"
+              className="flex items-center justify-center rounded-base border-2 border-border shadow-nav dark:shadow-navDark dark:border-darkBorder size-9 transition-all hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none dark:hover:shadow-none"
             >
-              <p className="font-semibold sm:inline hidden">{starsCount}</p>
-
               <svg
                 className="size-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,17 +43,17 @@ async function Navbar() {
             </a>
             <a
               target="_blank"
-              href="https://twitter.com/samuelbreznjak"
+              href="https://linkedin.com/in/roger-infa-sanchez"
               className="flex items-center justify-center rounded-base border-2 border-border shadow-nav dark:shadow-navDark dark:border-darkBorder size-9 transition-all hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none dark:hover:shadow-none"
             >
               <svg
                 className="size-5"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
+                viewBox="0 0 448 512"
               >
                 <path
                   className="fill-foreground"
-                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
                 />
               </svg>
             </a>

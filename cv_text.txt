@@ -1,0 +1,171 @@
+                         Roger Infa Sánchez
+                contactorogeris@gmail.com | +51 977 312 592 | Arequipa, Perú
+                    linkedin.com/in/roger-infa-sanchez | github.com/rogerinfas
+
+
+Perfil Profesional
+
+Desarrollador de software con más de 3 años de experiencia en soluciones web, automatización de pro-
+cesos y sistemas backend eficientes. Especializado en integración de APIs, arquitecturas desacopladas y
+tecnologías modernas. Gran capacidad de trabajo en equipo, comunicación clara y enfoque en la entrega
+de valor real. Busco contribuir a proyectos de impacto combinando habilidades técnicas y compromiso
+profesional.
+
+
+Experiencia Profesional
+
+ACIDE PERU                                                                 Octubre 2025 – Actualidad
+Desarrollador de Software e Implementador ERP
+Desarrollo de soluciones tecnológicas integrales para pequeñas y medianas empresas (PYMEs) a nivel
+nacional. Diseño y programación de aplicaciones robustas a medida (ERPs y CRMs) enfocadas en al-
+to rendimiento y escalabilidad. Asimismo, gestiono la implementación, configuración y personalización
+de ecosistemas Low-Code/No-Code (Odoo, Shopify, WordPress) para optimizar procesos comerciales y
+operativos.
+
+S&R Soluciones y Servicios TI                                            Agosto 2025 – Octubre 2025
+Especialista en Soporte TI N2 (Tiempo Completo)
+Responsable de brindar soporte e implementar soluciones tecnológicas para grandes empresas del sector
+financiero como Banco BBVA, Banco Ripley, Banco Falabella y Caja Arequipa. Trabajo finalizado.
+HTW (High Technology World)                                            Septiembre 2025 – Octubre 2025
+Especialista en Soporte TI N1 (Tiempo Completo)
+Asistencia remota a nivel nacional para Caja Arequipa. Trabajo finalizado.
+Floreas Technologies S.A. de C.V. (México)                                       Mayo 2025 – Julio 2025
+Desarrollador Frontend (Remoto)
+Responsable del desarrollo y mantenimiento de interfaces web dinámicas utilizando Vue.js y TailwindCSS.
+Participación activa en la creación de componentes reutilizables y accesibles. Colaboración con el equipo
+backend para la integración de APIs REST. Mejora continua en la experiencia de usuario y rendimiento
+del frontend para una aplicación transaccional usada en LATAM.
+TechNova Solutions S.A.C.                                                      Febrero 2025 – Julio 2025
+Desarrollador Backend
+Diseñé y mantuve APIs seguras y escalables con NestJS. Implementé WebSockets para comunicación en
+tiempo real. Fortalecí las políticas de seguridad mediante autenticación JWT, control de acceso RBAC y
+sanitización de datos. Participé en auditorías internas y fortalecimiento de endpoints.
+
+MF Gastronomía y Calidad S.A.C                                                Mayo 2024 – Febrero 2025
+Asistente de TI
+Mantenimiento del sitio web corporativo y resolución de incidencias en sistemas internos. Automatización
+de procesos de pedidos mediante scripts personalizados y propuestas de mejoras digitales para atención
+al cliente.
+
+Universidad La Salle – Proyecto Curiosamente                                    Oct 2024 – Dic 2024
+Desarrollador Full Stack
+Desarrollo de una aplicación educativa inclusiva con Python Flask (diseño responsive para tablets) y
+accesibilidad integrada. Implementación de módulos personalizados para juegos educativos, seguimiento
+de progreso y pruebas en campo con estudiantes del CEBE Polivalente.
+github.com/rogerinfas/ProyectoCuriosamente
+
+
+
+                                                   1
+Universidad La Salle – Proyecto CodeGuard                                       Ago 2024 – Dic 2024
+Desarrollador Backend y Analista Funcional
+Creación de un sistema para detección de plagio en SQL usando técnicas de PLN como TF-IDF, similitud
+de coseno y Gemini AI. Responsable de la arquitectura backend con FastAPI, validación de código y
+generación automática de reportes. Integración de mensajería SMTP y autenticación por DNI.
+Código | Documentación
+
+TECSUP                                                                      Mayo 2022 – Agosto 2022
+Desarrollador Full Stack
+Desarrollo de plataforma web para calcular la vida útil de maquinaria pesada, usando NestJS y Post-
+greSQL. Automatización de reportes académicos, visualización de resultados en tiempo real y validación
+de fórmulas técnicas con usuarios finales.
+github.com/rogerinfas/App-Tecsup
+
+
+Educación
+
+Universidad La Salle, Arequipa                                                         2021 – Presente
+Ingeniería de Software
+Estudios retomados tras un año de pausa académica. Actualmente desarrollando una tesis sobre una
+aplicación móvil basada en geolocalización para mejorar el acceso al transporte urbano en Arequipa.
+Incluye análisis de rutas en tiempo real, modelado de puntos de interés y visualización interactiva con
+Flutter, Firebase y Mapbox.
+
+Colegio Madre Santa Beatriz, Arequipa                                            Educación Secundaria
+Alumno destacado, con excelente desempeño académico, participación activa en deportes y actividades
+extracurriculares. Institución educativa privada enfocada en educación integral y formación de valores,
+preparando a los estudiantes para estudios universitarios.
+
+
+Habilidades Técnicas
+
+
+Frontend                                               Bases de Datos
+  HTML, CSS, JavaScript                                 Relacionales: MySQL, PostgreSQL, SQLite, Ora-
+                                                        cle, SQL Server
+  React.js, Next.js, Angular, Vue.js
+                                                        NoSQL: MongoDB
+  Bootstrap, Material UI, TailwindCSS
+                                                        ORMs: SQLAlchemy, Prisma, TypeORM, Seque-
+Backend                                                 lize, mongoose, Entity Framework
+
+  Python, JavaScript, TypeScript, Go, C#, Java, Otros
+  PHP, Ruby                                      Despliegue: VPS, Google Cloud
+  Flask, FastAPI, Django, Express.js, NestJS,           Testing: PyTest, Jest, Mocha, Selenium
+  .NET, Spring Boot
+                                                        GitHub, GitLab, Git Flow
+  JWT, OAuth2, Google Auth, autenticación por           Scrum, Kanban, Trello
+  DNI
+                                                        IA y Visión: TensorFlow, Scikit-learn, PyTorch,
+  WebSockets, Socket.io, APIs REST y GraphQL            OpenCV, OpenFace
+  Docker, servicios desacoplados, multithreading        CMS/ERP: Odoo, WordPress, Shopify
+
+
+Idiomas
+
+   Español: Nativo
+   Inglés: Intermedio-Avanzado
+
+
+                                                   2
+   Portugués: Básico
+
+
+Proyectos Destacados
+
+ERP Personal – Backend Financiero en NestJS                                          2025 – Actualidad
+Diseño y desarrollo de un sistema ERP propio con arquitectura escalable en NestJS. Implementa mó-
+dulos para finanzas, control de caja y conciliaciones. Actualmente en proceso de implementación de
+librerías agnósticas (dependency-free) para generación de PDFs y documentos, permitiendo mayor con-
+trol y personalización sin dependencias externas pesadas. Aplicación de patrones de Clean Architecture,
+Domain-Driven Design (DDD), CQRS y Unit of Work para garantizar código mantenible, testeable y
+escalable.
+Football Hours SaaS – Alquiler de Campos Deportivos                                              2025
+Aplicación con React y NestJS con gestión de roles (administrador, arrendatario, personal). Reserva de
+canchas, pagos y sistema de autenticación.
+NestJS Auth - Google OAuth                                                                        2025
+Plantilla NestJS para autenticación con correo y Google. Gestión de sesiones con JWT, manejo de perfiles
+y pruebas en Postman.
+OdontoWeb – Gestión de Citas Dentales                                                   2025
+Backend con NestJS y MySQL. Autenticación con Google, notificaciones por WhatsApp y envío de
+correos.
+DreamSocial – Red Social Universitaria                                                      2025
+Aplicación social usando NestJS, PostgreSQL y AWS para compartir contenido académico. Incluye au-
+tenticación y sistema de comentarios.
+SyncOrder App – Gestión de Pedidos                                                                 2025
+Frontend Tailwind y backend en Flask. Panel de control de pedidos con transiciones de estado.
+AutoMsgTG – Automatización de Bots de Telegram                                                    2024
+Sistema en Flask + Telethon para envío masivo de mensajes a bots. Controlado mediante ‘threading.Event‘,
+carga archivos ‘.txt‘ y gestiona múltiples sesiones.
+Consulta DNI/RUC – Verificación de Identidad                                                 2024
+Script en Python usando APIs del gobierno peruano para verificar identidades y datos empresariales
+mediante RUC. Incluye manejo de errores HTTP.
+ProvinciasAPI – API REST para Ubigeo Peruano                                                2024
+Backend en .NET Framework y Entity Framework para consultar departamentos, provincias y distritos
+de Perú. Autenticación JWT.
+
+
+Certificaciones
+
+Udemy                                                                                              2025
+Flask y MySQL – Proyecto Web Completo
+Udemy                                                                                              2025
+APIs RESTful con Python, FastAPI y JWT
+Cisco Networking Academy                                                                           2022
+Simulación de Redes con Cisco Packet Tracer
+
+
+
+
+                                                   3
+

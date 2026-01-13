@@ -17,38 +17,38 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default:
-      "Neobrutalism components - Start making neobrutalism layouts today",
-    template: `%s - Neobrutalism components`,
+    default: "Roger Infa Sánchez - Desarrollador de Software",
+    template: `%s - Roger Infa Sánchez`,
   },
   description:
-    "A collection of neobrutalism-styled components based on shadcn/ui.",
+    "Desarrollador de software con experiencia en soluciones web, automatización y backend. Especializado en APIs y arquitecturas escalables.",
   keywords: [
-    "neobrutalism",
-    "neobrutalism components",
-    "neobrutalism tailwind",
-    "react neobrutalism",
-    "react tailwind components",
-    "shadcn components",
-    "shadcn neobrutalism",
+    "Roger Infa Sánchez",
+    "Desarrollador de Software",
+    "Backend Developer",
+    "Full Stack",
+    "NestJS",
+    "Python",
+    "React",
+    "Neobrutalism",
   ],
-  authors: [{ name: "Samuel Breznjak", url: "https://github.com/ekmas" }],
+  authors: [{ name: "Roger Infa Sánchez", url: "https://github.com/rogerinfas" }],
   openGraph: {
     type: "website",
     description:
-      "A collection of neobrutalism-styled components based on shadcn/ui.",
-    images: ["https://www.neobrutalism.dev/preview.png"],
-    url: "https://www.neobrutalism.dev/",
-    title: "Neobrutalism components",
+      "Portafolio de Roger Infa Sánchez. Desarrollador de software especializado en NestJS, Python y React.",
+    images: ["https://www.neobrutalism.dev/preview.png"], // Placeholder, ideally should be updated
+    url: "https://github.com/rogerinfas",
+    title: "Roger Infa Sánchez - Portafolio",
   },
-  metadataBase: new URL("https://www.neobrutalism.dev/"),
+  metadataBase: new URL("https://github.com/rogerinfas"), // Placeholder
   twitter: {
     card: "summary_large_image",
-    title: "Neobrutalism components - Start making neobrutalism layouts",
+    title: "Roger Infa Sánchez - Desarrollador de Software",
     description:
-      "A collection of neobrutalism-styled components based on shadcn/ui.",
+      "Portafolio de Roger Infa Sánchez. Desarrollador de software especializado en NestJS, Python y React.",
     images: ["https://www.neobrutalism.dev/preview.png"],
-    creator: "@samuelbreznjak",
+    creator: "@rogerinfas", // Assuming handle
   },
 }
 
@@ -60,17 +60,17 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" suppressHydrationWarning lang="en">
       <body className={dmSans.className}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            disableTransitionOnChange
-          >
-            <Navbar />
-            {children}
-            <SetStylingPref />
-            <ScrollToTop />
-            <Toaster />
-          </ThemeProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          disableTransitionOnChange
+        >
+          <Navbar />
+          {children}
+          <SetStylingPref />
+          <ScrollToTop />
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   )
