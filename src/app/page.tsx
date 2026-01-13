@@ -58,7 +58,7 @@ export default function Home() {
               Desarrollador de Software
             </h2>
 
-            <p className="leading-snug w-full md:mt-[30px] md:mb-[40px] sm:mt-8 my-6 sm:mb-8 2xl:text-2xl xl:text-xl lg:text-xl md:w-full md:text-xl sm:text-lg text-lg">
+            <p className="leading-snug w-full max-w-2xl mx-auto md:mt-[30px] md:mb-[40px] sm:mt-8 my-6 sm:mb-8 2xl:text-2xl xl:text-xl lg:text-xl md:w-full md:text-xl sm:text-lg text-lg">
               Especializado en integración de APIs, arquitecturas desacopladas y tecnologías modernas.
               Más de 3 años creando soluciones eficientes y escalables.
             </p>
